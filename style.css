@@ -1,0 +1,55 @@
+
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 0.9rem;
+    background-color: #785600;
+    color: #edeae2;
+}
+
+a {
+    color: #edeae2;
+    font-weight: 500;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20vw;
+    margin: 1%;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .logo {
+        width: 40vw;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    .logo {
+        width: 60vw;
+    }
+}
